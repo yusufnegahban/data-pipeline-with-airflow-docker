@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # 📘 Dockerized Data Pipeline Project  
 
@@ -164,3 +165,7 @@ Through this project, I learned how to:
 This project reflects my **transition from a marketing professional to a data engineer**, showing my curiosity, persistence, and real understanding of how data flows through modern systems.  
 
 > 🚀 I believe simplicity is the ultimate sophistication — and that’s exactly what this project represents.  
+=======
+# data-pipeline-with-airflow-docker
+Airflow Data Pipeline with Docker
+>>>>>>> 41a1d055347755f7c1fa9cfcbce08f20ce39384e
