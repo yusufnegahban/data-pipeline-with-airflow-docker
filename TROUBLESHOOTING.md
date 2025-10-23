@@ -65,7 +65,7 @@ Define the missing function or update the DAG to match the correct function.
    - Host: `postgres`  
    - Schema: `airflow`  
    - Login: `airflow`  
-   - Password: `securepass123`  
+   - Password: `yourpass`  
    - Port: `5432`  
 
 **Funny Analogy:** Asking Airflow to call “Postgres” but forgetting the phone number 📞🤷
