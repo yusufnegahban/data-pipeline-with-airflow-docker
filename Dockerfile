@@ -22,16 +22,3 @@ ENV PYTHONPATH="/opt/airflow/app:${PYTHONPATH}"
 
 
 
-# airflow/Dockerfile
-
-# Use official Airflow image
-#FROM apache/airflow:2.9.1
-
-# Set working directory
-#WORKDIR /opt/airflow
-
-# Copy DAGs into Airflow container
-#COPY dags /opt/airflow/dags
-
-# Copy scraper.py from app folder into DAGs folder
-#COPY ../app/scraper.py /opt/airflow/dags/
