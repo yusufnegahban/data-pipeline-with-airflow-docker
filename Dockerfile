@@ -9,13 +9,13 @@ WORKDIR /opt/airflow
 # Copy DAGs into Airflow container
 COPY dags /opt/airflow/dags
 
-# Copy entire app folder (شامل scraper.py و سایر فایل‌ها)
+# Copy entire app folder 
 COPY ../app /opt/airflow/app
 
 # Install Python dependencies used in scraper.py
 RUN pip install --no-cache-dir requests flask sqlalchemy
 
-# Set PYTHONPATH to include /opt/airflow/app so scraper.py و مدل‌ها پیدا بشن
+# Set PYTHONPATH to include /opt/airflow/app so scraper.py 
 ENV PYTHONPATH="/opt/airflow/app:${PYTHONPATH}"
 
 
