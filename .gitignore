@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment
+.env
+*.env
+.flaskenv
+*.flaskenv.py
+.env.py
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.iml
+
+# Docker
+*.log
+**/logs/
+.airflow/
+airflow/logs/
+airflow/plugins/__pycache__/
+tmp/
+*.pid
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Byte-compiled / cache
+*.egg-info/
+*.egg
+build/
+dist/
+
+# Jupyter / Notebooks
+.ipynb_checkpoints/
